@@ -122,6 +122,9 @@ label.email-error {
 }
 
 @media (max-width: 1023px) {
+  body {
+    position: relative;
+  }
   .img-desktop {
     display: none;
   }
@@ -148,7 +151,7 @@ label.email-error {
   }
   .logo {
     position: absolute;
-    top: 15px;
+    top: 10px;
     left: 15px;
   }
   .first-line {
